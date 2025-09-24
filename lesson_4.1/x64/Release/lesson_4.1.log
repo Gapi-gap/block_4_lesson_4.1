@@ -1,8 +1,0 @@
-﻿  main.cpp
-D:\Нетология\4_Модуль\lesson_4.1\main.cpp(74,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  Создание кода
-  9 of 213 functions ( 4.2%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Создание кода завершено
-  lesson_4.1.vcxproj -> D:\Нетология\4_Модуль\lesson_4.1\x64\Release\lesson_4.1.exe
