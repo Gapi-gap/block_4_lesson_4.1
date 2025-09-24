@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 #include<fstream>
 #include<string>
 
@@ -12,7 +12,7 @@ public:
 	{
 		if (adress == " " || street == " " || number_house == " " || number_apartment == " ")
 		{
-			this->adress = "Не корректные данные в файле чтения.";
+			this->adress = "РќРµ РєРѕСЂСЂРµРєС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ РІ С„Р°Р№Р»Рµ С‡С‚РµРЅРёСЏ.";
 		}
 		this->adress = adress;
 		this->street = street;
@@ -22,7 +22,7 @@ public:
 
 	std::string OutPutStr()
 	{
-		if (adress == "Не корректные данные в файле чтения.")
+		if (adress == "РќРµ РєРѕСЂСЂРµРєС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ РІ С„Р°Р№Р»Рµ С‡С‚РµРЅРёСЏ.")
 			return adress;
 		return adress + ", " + street + ", " + number_house + ", " + number_apartment + ".";
 	}
